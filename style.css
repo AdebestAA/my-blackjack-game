@@ -1,0 +1,56 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body {
+        background-image: radial-gradient(lightgreen, lightpink);
+        display: flex;
+        flex-direction: column;
+        font-family: cursive;
+        align-items: center;
+        padding-top: 7rem;
+
+    }
+
+
+    section {
+
+        min-height: 8rem;
+        min-width: 20rem;
+        background-color: yellow;
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .score-para,
+    .cards-para,
+    section div {
+        margin-top: 10px;
+    }
+
+    div button:nth-child(1) {
+        background-color: green;
+        border: none;
+        padding: 7px;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    div button:nth-child(2) {
+        background-color: orange;
+        border: none;
+        padding: 7px;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
